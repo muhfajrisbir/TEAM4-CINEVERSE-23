@@ -9,6 +9,8 @@ $result = getMovies();
 if (!isset($_SESSION['username'])) {
     header("Location: login.php");
     exit();
+
+
 }
 
 
@@ -57,7 +59,7 @@ if (!isset($_SESSION['username'])) {
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-  <title>Cineverse | Watchlist</title>
+  <title>Cineverse | Edit Watchlist</title>
   <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -124,8 +126,7 @@ if (!isset($_SESSION['username'])) {
     <div class="container">
     <h1 class="mt-5 text-center"><b>Watchlist Saya</b></h1>
     <hr>
-    <a class="btn btn-success btn-sm" href="tambah.php" role="button">+ Tambahkan Film</a>
-    <a class="btn btn-warning btn-sm" href="editwatchlist.php" role="button">Edit</a>
+    <a class="btn btn-secondary btn-sm" href="watchlist.php" role="button">Kembali ke Watchlist</a>
 
     <!-- Read/Baca ONLY -->
     <div class="row mt-3">
@@ -137,6 +138,10 @@ if (!isset($_SESSION['username'])) {
               <h5 class="card-title"><?= $row["title"] ?></h5>
               <p class="card-text"><?= $row["director"] ?> <br>
               <?= $row["rating"] ?></p>
+              <div class="btn-group d-flex justify-content-center">
+                <a href="ubah.php?id=<?= $row["id"] ?>" class="btn btn-warning btn-sm mx-1">Edit</a>
+                <a href="hapus.php?id=<?= $row["id"] ?>" class="btn btn-danger btn-sm mx-1">Delete</a>
+              </div>
             </div>
           </div>
         </div>
