@@ -120,7 +120,7 @@ if (!isset($_SESSION['username'])) {
           <option value="★">★</option>
           <option value="★★">★★</option>
           <option value="★★★">★★★</option>
-          <option value="★★★">★★★★</option>
+          <option value="★★★★">★★★★</option>
           <option value="★★★★★">★★★★★</option>
         </select> 
       </div>
