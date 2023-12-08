@@ -139,8 +139,8 @@ if (!isset($_SESSION['username'])) {
               <p class="card-text"><?= $row["director"] ?> <br>
               <?= $row["rating"] ?></p>
               <div class="btn-group d-flex justify-content-center">
-                <a href="ubah.php?id=<?= $row["id"] ?>" class="btn btn-warning btn-sm mx-1">Edit</a>
-                <a href="hapus.php?id=<?= $row["id"] ?>" class="btn btn-danger btn-sm mx-1">Delete</a>
+                <a href="ubah.php?id=<?= $row["id"] ?>" class="btn btn-warning btn-sm mx-1">Ubah</a>
+                <a href="hapus.php?id=<?= $row["id"] ?>" class="btn btn-danger btn-sm mx-1">Hapus</a>
               </div>
             </div>
           </div>

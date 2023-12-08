@@ -101,7 +101,8 @@ if (!isset($_SESSION['username'])) {
     </nav>
 
     <div class="container">
-    <h1 class="mt-5">Tambahkan Film</h1>
+    <h1 class="mt-5 text-center"><b>Tambahkan Film</b></h1>
+    <hr>
 
     <!-- Tambah -->
     <form action="" method="post" class="mt-4">
