@@ -81,7 +81,7 @@
                     </div>
                   </div>
                   <div class="text-center">
-                    <button type="submit" class="btn btn-primary ms-auto w-30">
+                    <button type="submit" class="btn btn-primary ms-auto w-100">
                       Login
                     </button>
                   </div>
