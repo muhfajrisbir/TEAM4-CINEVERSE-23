@@ -77,7 +77,7 @@ if (!isset($_SESSION['username'])) {
             </li>
           </ul>
 
-          <!-- Username//Logout -->
+          <!-- Username//Tombol Logout -->
           <div class="btn-group">
               <button type="button" class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <a> Halo,
