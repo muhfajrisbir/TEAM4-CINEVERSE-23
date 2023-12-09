@@ -111,7 +111,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["update"])) {
 
 <!-- Form ubah movie -->
 <div class="container mt-5">
-  <h1 class="mt-5 text-center"><b>Watchlist Saya</b></h1>
+  <h1 class="mt-5 text-center"><b>Update Film</b></h1>
   <hr>
     <form action="" method="post">
         <input type="hidden" name="id" value="<?= $movie["id"] ?>">
@@ -137,7 +137,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["update"])) {
         <label for="poster">Poster</label>
         <input type="file" class="form-control" id="poster" name="poster" required>
       </div>
-        <button type="submit" class="btn btn-success" name="update">Ubah</button>
+        <button type="submit" class="btn btn-warning" name="update">Ubah</button>
     </form>
     <a href="watchlist.php" class="btn btn-secondary mt-3">Kembali Ke Watchlist</a>
 </div>
