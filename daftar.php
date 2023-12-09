@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Cineverse | Login</title>
+    <title>Cineverse | Daftar</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,9 +31,9 @@
                   />
                 </div>
 
-                <!-- Formulir -->
+                <!-- Formulir Pendaftan-->
                 <form
-                  action="proseslogin.php"
+                  action="prosesdaftar.php"
                   method="POST"
                   class="needs-validation"
                   novalidate=""
@@ -68,7 +68,20 @@
                   </div>
 
                   <div class="mb-3">
-                    
+                    <div class="form-check">
+                      <input
+                        type="checkbox"
+                        name="ingat"
+                        id="remember"
+                        class="form-check-input"
+                      />
+                      <label for="ingat" class="form-check-label"
+                        ><small
+                          >Saya setuju dengan Syarat dan Ketentuan dan
+                          Pemberitahuan Privasi yang berlaku</small
+                        >
+                      </label>
+                    </div>
                   </div>
                   <div class="text-center">
                     <button type="submit" class="btn btn-primary ms-auto w-100">
@@ -78,10 +91,11 @@
                 </form>
               </div>
               <div class="card-footer py-3 border-0">
-							<div class="text-center">
-								Sudah punya akun? <a href="login.php" class="text-dark">Login</a>
-							</div>
-						</div>
+                <div class="text-center">
+                  Sudah punya akun?
+                  <a href="login.php" class="text-dark">Login</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

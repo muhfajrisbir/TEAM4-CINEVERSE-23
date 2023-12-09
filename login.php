@@ -31,7 +31,7 @@
                   />
                 </div>
 
-                <!-- Formulir -->
+                <!-- Formulir Login -->
                 <form
                   action="proseslogin.php"
                   method="POST"
@@ -88,10 +88,11 @@
                 </form>
               </div>
               <div class="card-footer py-3 border-0">
-							<div class="text-center">
-								Belum punya akun? <a href="daftar.php" class="text-dark">Daftar</a>
-							</div>
-						</div>
+                <div class="text-center">
+                  Belum punya akun?
+                  <a href="daftar.php" class="text-dark">Daftar</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
