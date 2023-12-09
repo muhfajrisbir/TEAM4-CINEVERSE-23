@@ -74,7 +74,7 @@ if (!isset($_SESSION['username'])) {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a class="nav-link active" aria-current="page" href="beranda.php"
                 >Beranda</a
               >
             </li>
@@ -136,9 +136,7 @@ if (!isset($_SESSION['username'])) {
     <a href="watchlist.php" class="btn btn-secondary mt-3">Kembali Ke Watchlist</a>
  </div>
 
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <!-- Opsional JavaScript -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
