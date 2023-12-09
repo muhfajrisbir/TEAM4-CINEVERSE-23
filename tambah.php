@@ -130,7 +130,7 @@ if (!isset($_SESSION['username'])) {
         <label for="poster">Poster</label>
         <input type="file" class="form-control" id="poster" name="poster" required>
       </div>
-      <button type="submit" name="add" class="btn btn-primary">Tambahkan</button>
+      <button type="submit" name="add" class="btn btn-success">Tambahkan</button>
     </form>
     
     <a href="watchlist.php" class="btn btn-secondary mt-3">Kembali Ke Watchlist</a>
