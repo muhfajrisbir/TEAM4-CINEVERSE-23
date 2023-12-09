@@ -68,28 +68,18 @@
                   </div>
 
                   <div class="mb-3">
-                    <div class="form-check">
-                      <input
-                        type="checkbox"
-                        name="ingat"
-                        id="remember"
-                        class="form-check-input"
-                      />
-                      <label for="ingat" class="form-check-label"
-                        >Ingat Saya</label
-                      >
-                    </div>
+                    
                   </div>
                   <div class="text-center">
                     <button type="submit" class="btn btn-primary ms-auto w-100">
-                      Login
+                      Daftar
                     </button>
                   </div>
                 </form>
               </div>
               <div class="card-footer py-3 border-0">
 							<div class="text-center">
-								Belum punya akun? <a href="daftar.php" class="text-dark">Daftar</a>
+								Sudah punya akun? <a href="login.php" class="text-dark">Login</a>
 							</div>
 						</div>
             </div>
