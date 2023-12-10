@@ -123,7 +123,7 @@ if (!isset($_SESSION['username'])) {
     <br>
     <br>
     <div class="container">
-    <h1 class="mt-5 text-center"><b>Watchlist Saya</b></h1>
+    <h1 class="mt-5 text-center"><b>Watchlist</b></h1>
     <hr>
     <a class="btn btn-success btn-sm" href="tambah.php" role="button">+ Tambah Film</a>
     <a class="btn btn-warning btn-sm" href="editwatchlist.php" role="button">Edit</a>
