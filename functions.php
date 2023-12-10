@@ -1,5 +1,6 @@
 <?php
-function connectDB() {
+function connectDB()
+{
   $servername = "localhost";
   $username = "root";
   $password = "";
@@ -14,15 +15,16 @@ function connectDB() {
   return $conn;
 }
 
-function getMovies() {
+function getMovies()
+{
   $conn = connectDB();
   $result = $conn->query("SELECT * FROM movies");
   return $result;
 }
 
-function tambahMovie($title, $director, $rating, $poster) {
+function tambahMovie($title, $director, $rating, $poster)
+{
   $conn = connectDB();
   $sql = "INSERT INTO movies (title, director, rating, poster) VALUES ('$title', '$director','$rating', '$poster')";
   $conn->query($sql);
 }
-?>
