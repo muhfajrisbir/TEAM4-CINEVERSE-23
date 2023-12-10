@@ -81,7 +81,7 @@ if (!isset($_SESSION['username'])) {
           <div class="btn-group">
               <button type="button" class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <a> Halo,
-              <?php echo  $_SESSION['username']; ?>! </a>
+              <?php echo  $_SESSION['username']; ?>👋</a>
             </button>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="logout.php">Logout</a> 
