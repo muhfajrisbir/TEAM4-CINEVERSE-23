@@ -80,7 +80,7 @@ if (!isset($_SESSION['username'])) {
     $sql = "UPDATE movies SET title='$title', director='$director',rating='$rating', poster='$poster' WHERE id=$id";
     if ($conn->query($sql) === TRUE) {
       // Data update sukses
-      echo '<script>alert("Data berhasil diubah!");</script>';
+      echo '<script>alert("Film berhasil diubah!");</script>';
       // Mengalihkan ke watchlist
       echo '<script>window.location.href = "watchlist.php";</script>';
       exit;
