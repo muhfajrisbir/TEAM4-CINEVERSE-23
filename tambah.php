@@ -39,7 +39,7 @@ if (!isset($_SESSION['username'])) {
 
 <body>
   <!-- Navbar Tambah Film -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="uploads/cineverselogo.png" width="90" height="50" alt="" />
@@ -73,7 +73,8 @@ if (!isset($_SESSION['username'])) {
     </div>
     </div>
   </nav>
-
+  <br>
+  <br>
   <div class="container">
     <h1 class="mt-5 text-center"><b>Tambah Film</b></h1>
     <hr>
@@ -109,6 +110,12 @@ if (!isset($_SESSION['username'])) {
 
     <a href="watchlist.php" class="btn btn-secondary mt-3">Kembali Ke Watchlist</a>
   </div>
+
+  <br>
+  <br>
+  <footer class="bg-dark text-center text-white py-3">
+    <p>&copy; 2023 Cineverse. All rights reserved.</p>
+  </footer>
 
   <!-- Opsional JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
