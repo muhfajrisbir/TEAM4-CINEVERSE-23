@@ -18,7 +18,7 @@ if ($result->num_rows > 0) {
     // Login gagal, mengalihkan kembali ke halaman login
     echo '<script>
           alert("Login gagal. Username atau password yang anda masukkan salah!");
-          window.location.href = "/cineverse/login.php";
+          window.location.href = "login.php";
         </script>';
 }
 
