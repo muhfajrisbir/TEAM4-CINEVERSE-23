@@ -52,14 +52,21 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Beranda</a>
                 </li>
 
                 <li class="nav-item">
-                  <a href="watchlist.php" class="nav-link active">Watchlist</a>
+                  <a href="watchlist.php" class="nav-link">Watchlist</a>
+                </li>
+
+                <li class="nav-item">
+                <a href="bioskop.php" class="nav-link">Bioskop</a>
                 </li>
               </ul>
+
+              
 
               <!-- Username//Tombol Logout -->
               <div class="btn-group">

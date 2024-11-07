@@ -56,6 +56,10 @@ if (!isset($_SESSION['username'])) {
           <li class="nav-item">
             <a href="watchlist.php" class="nav-link active">Watchlist</a>
           </li>
+
+          <li class="nav-item">
+                <a href="bioskop.php" class="nav-link active">Bioskop</a>
+                </li>
         </ul>
 
         <!-- Username//Tombol Logout -->

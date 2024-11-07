@@ -69,12 +69,16 @@ if (!isset($_SESSION['username'])) {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="beranda.php">Beranda</a>
+            <a class="nav-link" aria-current="page" href="beranda.php">Beranda</a>
           </li>
 
           <li class="nav-item">
             <a href="watchlist.php" class="nav-link active">Watchlist</a>
           </li>
+
+          <li class="nav-item">
+                <a href="bioskop.php" class="nav-link">Bioskop</a>
+                </li>
         </ul>
 
         <!-- Username//Logout -->
